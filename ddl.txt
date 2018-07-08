@@ -1,0 +1,23 @@
+drop database spider;
+create database spider;
+use spider;
+
+create table films(
+id int primary key auto_increment,
+title varchar(64),
+star double,
+quote varchar(128),
+director varchar(64),
+
+);
+
+
+title varchar(64) ,
+director varchar(64),
+mainactor varchar(64),
+star double ,   
+ratting int ,    
+poster varchar(128),    
+quote varchar(128),    
+country varchar(64),   
+timestart varchar(64),    
